@@ -1,0 +1,34 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+django = "==3.2.12"
+djangorestframework = "==3.12.2"
+djangorestframework-simplejwt = "*"
+psycopg2-binary = "==2.8.6"
+gunicorn = "==20.0.4"
+dj-rest-auth = "*"
+drf-yasg = "*"
+pre-commit = "*"
+django-storages = "*"
+boto3 = "*"
+pillow = "*"
+django-cors-headers = "*"
+django-filter = "*"
+django-crontab = "*"
+django-debug-toolbar = "*"
+django-silk = "*"
+flake8 = "*"
+black = "*"
+cffi = "*"
+google-api-python-client = "*"
+firebase-admin = "*"
+pytest-django = "*"
+emoji = "*"
+
+[requires]
+python_version = "3.8"

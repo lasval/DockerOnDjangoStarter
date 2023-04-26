@@ -1,0 +1,26 @@
+FROM --platform=linux/x86_64 python:3.8.3-alpine
+LABEL maintainer="Las Jeonghwan Jo <las@popprika.com>"
+# 파이썬 환경 변수 설정
+ENV PYTHONUNBUFFERED 1
+ENV PYTHONDONTWRITEBYTECODE 1
+ENV PYTHONIOENCODING=utf-8
+
+# 컨테이너내 작업 디렉토리
+WORKDIR /usr/src/app
+
+# dependencies를 위한 apt-get update
+RUN apk update \
+    && apk add --virtual build-deps gcc python3-dev musl-dev \
+    && apk add postgresql-dev gcc python3-dev musl-dev \
+    && apk del build-deps \
+    && apk --no-cache add musl-dev linux-headers g++ tzdata \
+    && apk add gettext \
+    && apk add --no-cache python3-dev libffi-dev gcc
+
+# install dependencies
+RUN pip install --upgrade pip
+ADD requirements.txt /usr/src/app/
+RUN pip install -r requirements.txt
+
+# Copy(add) project files
+ADD . /usr/src/app/

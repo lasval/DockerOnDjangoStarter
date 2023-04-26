@@ -1,0 +1,245 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-11 14:49+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: project_api/apps/users/serializers.py:77
+msgid "This account is registered by social authentication login already"
+msgstr "This account is registered by social authentication login already"
+
+#: project_api/apps/users/serializers.py:89 project_api/apps/users/views.py:319
+msgid "Unregistered E-mail"
+msgstr "Unregistered E-mail"
+
+#: project_api/apps/users/serializers.py:111
+#: project_api/apps/users/serializers.py:131 project_api/apps/users/views.py:550
+msgid "Email already exists"
+msgstr "Email already exists"
+
+#: project_api/apps/users/serializers.py:137
+#: project_api/apps/users/serializers.py:236
+msgid "Password does not match"
+msgstr "Password does not match"
+
+#: project_api/apps/users/serializers.py:163
+msgid "Emoji or special characters cannot be used as nicknames"
+msgstr "Emoji or special characters cannot be used as nicknames"
+
+#: project_api/apps/users/serializers.py:170
+msgid "Duplicate nickname"
+msgstr "Duplicate nickname"
+
+#: project_api/apps/users/utils.py:240
+msgid "id_token is invalid"
+msgstr "id_token is invalid"
+
+#: project_api/apps/users/utils.py:253
+msgid "google_id does not match"
+msgstr "google_id does not match"
+
+#: project_api/apps/users/utils.py:266 project_api/apps/users/utils.py:275
+msgid "uid dose not exists"
+msgstr "uid dose not exists"
+
+#: project_api/apps/users/views.py:179 project_api/apps/users/views.py:206
+msgid "Incorrect Code"
+msgstr "Incorrect Code"
+
+#: project_api/apps/users/views.py:216
+msgid "Time expried"
+msgstr "Time expried"
+
+#: project_api/apps/users/views.py:256
+msgid "Email verification time over"
+msgstr "Email verification time over"
+
+#: project_api/apps/users/views.py:326
+msgid "Incorrect Password"
+msgstr "Incorrect Password"
+
+#: project_api/apps/users/views.py:483 project_api/apps/users/views.py:688
+#: project_api/apps/users/views.py:739
+msgid "User does not exists"
+msgstr "User does not exists"
+
+#: project_api/apps/users/views.py:559
+msgid "Social already exists"
+msgstr "Social already exists"
+
+#: project_api/apps/users/views.py:637
+msgid "Social does not exists"
+msgstr "Social does not exists"
+
+#: project_api/apps/users/views.py:867
+msgid "Password does not exists"
+msgstr "Password does not exists"
+
+#: project_api/apps/users/views.py:876
+msgid "Invalid password"
+msgstr "Invalid password"
+
+#: project_api/custom_exception_handler.py:46
+msgid "error"
+msgstr "error"
+
+#: project_api/custom_http_status.py:98
+msgid "Bad request syntax or unsupported method"
+msgstr "Bad request syntax or unsupported method"
+
+#: project_api/custom_http_status.py:103
+msgid "No permission"
+msgstr "No permission"
+
+#: project_api/custom_http_status.py:108
+msgid "No payment"
+msgstr "No payment"
+
+#: project_api/custom_http_status.py:113
+msgid "Request forbidde"
+msgstr "Request forbidde"
+
+#: project_api/custom_http_status.py:118
+msgid "Nothing matches the given URI"
+msgstr "Nothing matches the given URI"
+
+#: project_api/custom_http_status.py:123
+msgid "Specified method is invalid for this resource"
+msgstr "Specified method is invalid for this resource"
+
+#: project_api/custom_http_status.py:128
+msgid "URI not available in preferred format"
+msgstr "URI not available in preferred format"
+
+#: project_api/custom_http_status.py:134
+msgid "Proxy Authentication Required"
+msgstr "Proxy Authentication Required"
+
+#: project_api/custom_http_status.py:140
+msgid "Request timed out; try again later"
+msgstr "Request timed out; try again later"
+
+#: project_api/custom_http_status.py:142
+msgid "Request conflict"
+msgstr "Request conflict"
+
+#: project_api/custom_http_status.py:146
+msgid "URI no longer exists and has been permanently removed"
+msgstr "URI no longer exists and has been permanently removed"
+
+#: project_api/custom_http_status.py:151
+msgid "Client must specify Content-Length"
+msgstr "Client must specify Content-Length"
+
+#: project_api/custom_http_status.py:156
+msgid "Precondition in headers is false"
+msgstr "Precondition in headers is false"
+
+#: project_api/custom_http_status.py:161
+msgid "Entity is too large"
+msgstr "Entity is too large"
+
+#: project_api/custom_http_status.py:166
+msgid "URI is too long"
+msgstr "URI is too long"
+
+#: project_api/custom_http_status.py:171
+msgid "Unsupported Media Type"
+msgstr "Unsupported Media Type"
+
+#: project_api/custom_http_status.py:176
+msgid "Requested Range Not Satisfiable"
+msgstr "Requested Range Not Satisfiable"
+
+#: project_api/custom_http_status.py:181
+msgid "Expectation Failed"
+msgstr "Expectation Failed"
+
+#: project_api/custom_http_status.py:186
+msgid "Misdirected Request"
+msgstr "Misdirected Request"
+
+#: project_api/custom_http_status.py:188
+msgid "Unprocessable Entity"
+msgstr "Unprocessable Entity"
+
+#: project_api/custom_http_status.py:189
+msgid "Locked"
+msgstr "Locked"
+
+#: project_api/custom_http_status.py:190
+msgid "Failed Dependency"
+msgstr "Failed Dependency"
+
+#: project_api/custom_http_status.py:191
+msgid "Upgrade Required"
+msgstr "Upgrade Required"
+
+#: project_api/custom_http_status.py:195
+msgid "Precondition Required"
+msgstr "Precondition Required"
+
+#: project_api/custom_http_status.py:200
+msgid "Too Many Requests"
+msgstr "Too Many Requests"
+
+#: project_api/custom_http_status.py:205
+msgid "Request Header Fields Too Large"
+msgstr "Request Header Fields Too Large"
+
+#: project_api/custom_password_validation.py:112
+#: project_api/custom_password_validation.py:117
+msgid "Please enter at least 8 digits"
+msgstr "Please enter at least 8 digits"
+
+#: project_api/custom_password_validation.py:203
+#, python-format
+msgid "The password is too similar to the %(verbose_name)s."
+msgstr "The password is too similar to the %(verbose_name)s."
+
+#: project_api/custom_password_validation.py:211
+msgid "Your password cant be too similar to your other personal information."
+msgstr "Your password cant be too similar to your other personal information."
+
+#: project_api/custom_password_validation.py:241
+msgid "The new password is too simple"
+msgstr "The new password is too simple"
+
+#: project_api/custom_password_validation.py:245
+msgid "Your password cant be a commonly used password."
+msgstr "Your password cant be a commonly used password."
+
+#: project_api/custom_password_validation.py:256
+msgid "This password is entirely numeric."
+msgstr "This password is entirely numeric."
+
+#: project_api/custom_password_validation.py:261
+msgid "Your password cant be entirely numeric."
+msgstr "Your password cant be entirely numeric."
+
+#: project_api/custom_password_validation.py:277
+#: project_api/custom_password_validation.py:283
+msgid "Please enter a combination of English and numbers for the password"
+msgstr "Please enter a combination of English and numbers for the password"
+
+#: project_api/settings.py:136
+msgid "Korean"
+msgstr "Korean"
+
+#: project_api/settings.py:137
+msgid "English"
+msgstr "English"

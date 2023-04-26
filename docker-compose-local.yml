@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+  web:
+    build:
+      context: ./django
+      dockerfile: Dockerfile.dev
+    image: project/django-dev-local
+    container_name: project-django-dev-local
+    env_file:
+      - ./.env.dev
+    command: python manage.py runserver 0.0.0.0:8000
+    volumes:
+      - ./django:/usr/src/app/
+    environment:
+      - TZ=Asia/Seoul
+    ports:
+      - 8000:8000
